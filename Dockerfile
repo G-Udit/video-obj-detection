@@ -8,7 +8,7 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
 RUN apt-get -y update
-RUN apt-get install gstreamer1.0-libav ffmpeg
+RUN apt-get -y install gstreamer1.0-libav ffmpeg
 
 # Install pip requirements
 COPY requirements.txt .
