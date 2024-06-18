@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  yolov7main:
+    image: yolov7main
+    build:
+      context: .
+      dockerfile: ./Dockerfile
